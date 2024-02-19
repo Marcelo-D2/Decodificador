@@ -26,11 +26,11 @@ function descriptografar() {
     let resultado = document.getElementById('resultado');
     textoEntrada = document.querySelector('textarea').value;
 
-    textoSaida = textoEntrada.replace(/enter/g, "e")
-                                .replace(/imes/g, "i")
-                                .replace(/ai/g, "a")
-                                .replace(/ober/g, "o")
-                                .replace(/ufat/g, "u");
+    textoSaida = textoEntrada.replace(/zen/g, "e")
+                                .replace(/ni/g, "i")
+                                .replace(/san/g, "a")
+                                .replace(/yon/g, "o")
+                                .replace(/kyu/g, "u");
 
     textoBotaoCopiar = textoSaida;
     resultado.innerHTML = textoSaida;
